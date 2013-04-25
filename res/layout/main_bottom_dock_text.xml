@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+   	
+   	<TextView 
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:layout_weight="1.4"/>
+
+   	<TextView 
+        android:id="@+id/action_dt0"
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:layout_weight="1"
+   		android:gravity="center"
+   		android:textSize="@dimen/main_text_size"
+   		android:text="@string/main_dock_car_lamp"/>
+	
+   	<TextView 
+        android:id="@+id/action_dt1"
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:layout_weight="1"
+   		android:gravity="center"
+   		android:textSize="@dimen/main_text_size"
+   		android:text="@string/main_dock_air_conditioning"/>	    
+    
+    <TextView 
+        android:id="@+id/action_dt2"
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:gravity="center"
+   		android:textSize="@dimen/main_text_size"
+   		android:layout_weight="1"
+   		android:text="@string/main_dock_car_window"/>	
+   		
+   	<TextView 
+        android:id="@+id/action_dt3"
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:gravity="center"
+   		android:textSize="@dimen/main_text_size"   		
+   		android:layout_weight="1"
+   		android:text="@string/main_dock_rain_wiper"/>
+   	
+    <TextView 
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:layout_weight="0.5"/>	
+   		
+   	<TextView 
+        android:id="@+id/action_dt4"
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:gravity="center"
+   		android:textSize="@dimen/main_text_size"   		
+   		android:layout_weight="1"
+   		android:text="@string/main_dock_far_light"/>	    
+    
+    <TextView 
+        android:id="@+id/action_dt5"
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:gravity="center"
+   		android:textSize="@dimen/main_text_size"   		
+   		android:layout_weight="1"
+   		android:text="@string/main_dock_near_light"/>	
+   		
+    <TextView 
+        android:id="@+id/action_dt6"
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:gravity="center"
+   		android:textSize="@dimen/main_text_size"   		
+   		android:layout_weight="1"
+   		android:text="@string/main_dock_front_flog_lamp"/>
+	
+   	<TextView 
+        android:id="@+id/action_dt7"
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:gravity="center"
+   		android:textSize="@dimen/main_text_size"   		
+   		android:layout_weight="1"
+   		android:text="@string/main_dock_behind_flog_lamp"/>	    
+    
+    <TextView 
+        android:id="@+id/action_dt8"
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:gravity="center"
+   		android:textSize="@dimen/main_text_size"   		
+   		android:layout_weight="1"
+   		android:text="@string/main_dock_front_hatch"/>	
+   		
+    <TextView 
+        android:id="@+id/action_dt9"
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:gravity="center"
+   		android:textSize="@dimen/main_text_size"   		
+   		android:layout_weight="1"
+   		android:text="@string/main_dock_behind_hatch"/>	    
+    
+    <TextView 
+        android:id="@+id/action_dt10"
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:gravity="center"
+   		android:textSize="@dimen/main_text_size"   		
+   		android:layout_weight="1"
+   		android:text="@string/main_dock_horn"/>
+    
+    <TextView 
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:layout_weight="0.5"/>
+         
+    <TextView 
+        android:id="@+id/action_dt11"
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:gravity="center"
+   		android:textSize="@dimen/main_text_size"   		
+   		android:layout_weight="1"
+   		android:text="@string/main_dock_home_page"/>
+    
+     <TextView 
+ 	    android:layout_width="0dip"
+   		android:layout_height="wrap_content"
+   		android:layout_weight="1.4"/>	   	     
+</LinearLayout>

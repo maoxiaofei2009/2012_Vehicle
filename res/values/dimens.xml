@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<dimen name="main_text_size">20sp</dimen>
+	<dimen name="main_text_content">25sp</dimen>
+	<dimen name="main_text_small">18sp</dimen>
+	<dimen name="main_text_rainwiper">14sp</dimen>
+	<dimen name="main_text_air_condition">46sp</dimen>
+	
+	<dimen name="main_car_stalls">32dip</dimen>
+	<dimen name="home_app_item_height">110dip</dimen>
+	<dimen name="home_app_item_image">80dip</dimen>
+	<dimen name="home_app_item_text_size">20sp</dimen>
+</resources>

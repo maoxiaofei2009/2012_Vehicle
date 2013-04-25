@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"      
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:id="@+id/top_area"
+        android:layout_width="fill_parent"
+    	android:layout_height="0dip"
+    	android:layout_weight="100" 
+    	android:background="@drawable/main_top_background">  
+<!--    		<ImageView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_centerInParent="true"
+            android:src="@drawable/main_hik_iecar"/>   -->
+    </RelativeLayout>   
+       
+    <LinearLayout    
+	    android:layout_width="fill_parent"
+    	android:layout_height="0dip"
+    	android:layout_weight="652" 
+    	android:background="@drawable/main_big_background"
+	    android:orientation="vertical">
+	    <RelativeLayout 
+	        android:id="@+id/content_area"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="0dip"
+	    	android:layout_weight="483"
+	    	android:background="#00000000">
+	        
+			<include layout="@layout/main_content" />
+	    </RelativeLayout>
+	    
+	    <!-- Dock Area-->
+	    <RelativeLayout
+	        android:id="@+id/dock_area"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="0dip"
+	    	android:layout_weight="122"
+	    	android:background="@drawable/main_dock_background"
+	    	android:orientation="horizontal">
+				<LinearLayout
+			        android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"
+			    	android:orientation="vertical">
+	                   	<LinearLayout
+					        android:layout_width="fill_parent"
+					    	android:layout_height="0dip"
+					    	android:layout_weight="4"/>
+
+					    <include layout="@layout/main_bottom_dock_text"
+					    	android:layout_width="fill_parent"
+					    	android:layout_height="0dip"
+					    	android:layout_weight="3"/>                   	                   
+	            </LinearLayout>	
+	            <LinearLayout
+			        android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"
+			    	android:orientation="vertical">
+
+					    <include layout="@layout/main_bottom_dock"
+					    	android:layout_width="fill_parent"
+					    	android:layout_height="0dip"
+					    	android:layout_weight="10"/> 
+	                    <LinearLayout
+					        android:layout_width="fill_parent"
+					    	android:layout_height="0dip"
+					    	android:layout_weight="3"/>		                   	                   
+	            </LinearLayout>
+	    </RelativeLayout>
+	    
+	    <!-- Bottom Area -->
+	    <RelativeLayout
+	        android:id="@+id/bottom_area"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="0dip"
+	    	android:layout_weight="47"
+	    	android:background="@drawable/main_bottom_background">
+	        <include layout="@layout/main_bottom_bar"/>   
+	    </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

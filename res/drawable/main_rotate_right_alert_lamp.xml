@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:oneshot="false">
+  	<item android:drawable="@drawable/icon_lamp_rotate_right_normal" android:duration="500"></item>
+  	<item android:drawable="@drawable/icon_lamp_rotate_right_highlight" android:duration="500"></item>
+</animation-list>

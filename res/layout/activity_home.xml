@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"      
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_big_background">
+    
+    <RelativeLayout
+        android:id="@+id/home_main"
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="@drawable/home_main_action"> 
+    </RelativeLayout>
+ 
+    
+    <LinearLayout
+        android:id="@+id/home_dock"
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical">  
+  
+        <LinearLayout
+            android:id="@+id/home_main_image"
+	        android:layout_width="fill_parent"
+	    	android:layout_height="0dip"
+	    	android:layout_weight="630" /> 
+    	
+       <LinearLayout
+	        android:layout_width="fill_parent"
+	    	android:layout_height="0dip"
+	    	android:layout_weight="180"
+	    	android:orientation="horizontal" > 
+	    	<ImageView 
+		        android:layout_width="0dip"
+		    	android:layout_height="fill_parent"
+		    	android:layout_weight="0.5"/>
+	    		        
+	        <ImageView 
+	            android:id="@+id/dock_security"
+		        android:layout_width="0dip"
+		    	android:layout_height="fill_parent"
+		    	android:layout_weight="1"
+		    	android:src="@drawable/home_dock_security"
+		    	android:background="@drawable/home_background" />
+	                
+	       <ImageView 
+	           	android:id="@+id/dock_traffic"
+		        android:layout_width="0dip"
+		    	android:layout_height="fill_parent"
+		    	android:layout_weight="1"
+		    	android:src="@drawable/home_dock_traffic"
+		    	android:background="@drawable/home_background" />
+	                        
+	       <ImageView 
+	           	android:id="@+id/dock_nearby"
+		        android:layout_width="0dip"
+		    	android:layout_height="fill_parent"
+		    	android:layout_weight="1"
+		    	android:src="@drawable/home_dock_nearby"
+		    	android:background="@drawable/home_background" />
+	       
+	       <ImageView 
+	           	android:id="@+id/dock_message"
+		        android:layout_width="0dip"
+		    	android:layout_height="fill_parent"
+		    	android:layout_weight="1"
+		    	android:src="@drawable/home_dock_message"
+		    	android:background="@drawable/home_background" />
+	       
+	       <ImageView 
+		        android:layout_width="0dip"
+		    	android:layout_height="fill_parent"
+		    	android:layout_weight="0.5"/>
+       </LinearLayout>
+    </LinearLayout>   
+</RelativeLayout>

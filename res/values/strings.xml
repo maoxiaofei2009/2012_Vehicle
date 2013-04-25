@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vehicle</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Main</string>
+    
+    <string name="main_bottom_message">信息</string>
+    <string name="main_bottom_battery">电池</string>
+    <string name="main_bottom_motor">电机</string>
+    <string name="main_bottom_air_conditioning">空调</string>
+    <string name="main_bottom_fault">故障</string>
+    <string name="main_bottom_diagnosis">诊断</string>
+    <string name="main_bottom_vehicle_maintenance">车辆保养</string>
+    <string name="main_bottom_setting">设置</string>
+    
+    <string name="main_dock_car_lamp">车灯</string>
+    <string name="main_dock_air_conditioning">空调</string>
+    <string name="main_dock_car_window">车窗</string>
+    <string name="main_dock_rain_wiper">雨刮</string>
+    <string name="main_dock_far_light">远光灯</string>
+    <string name="main_dock_near_light">近光灯</string>
+    <string name="main_dock_front_flog_lamp">前雾灯</string>    
+    <string name="main_dock_behind_flog_lamp">后雾灯</string>
+    <string name="main_dock_front_hatch">前舱门</string>
+    <string name="main_dock_behind_hatch">后舱门</string>
+    <string name="main_dock_horn">喇叭</string>
+    <string name="main_dock_home_page">主页</string>
+    
+    <string name="main_rain_wiper_close">雨刮关</string>
+    <string name="main_rain_wiper_slow">雨刮慢档</string>
+    <string name="main_rain_wiper_middle">雨刮中档</string>
+    <string name="main_rain_wiper_fast">雨刮快档</string> 
+    
+    <string name="main_control_right_door">右车窗</string>
+    <string name="main_control_left_door">左车窗</string> 
+    
+        
+     <!-- batteryinfoindex -->
+	<string name="batteryinfoindex"> </string>
+	<string name="num">蓄电池组编号</string>
+	<string name="counter">蓄电池系统模块总数量</string>
+	<string name="chargestatus">电池充电状态</string>
+	<string name="soc">蓄电池荷电状态</string>
+	<string name="chargetime0">蓄电池充电次数</string>
+	<string name="chargetime1">蓄电池充电次数1</string>
+	
+	<!-- batterytotalvaindex -->
+	<string name="batterytotalvaindex"> </string>
+	<string name="total_volage0">动力电池的总电压</string>
+	<string name="total_volage1">动力电池的总电压1</string>
+	<string name="total_current0">动力电池的总电流</string>
+	<string name="total_current1">动力电池的总电流1</string>
+	
+	<!-- batterycellinfoindex -->
+	<string name="batterycellinfoindex"> </string>
+	<string name="cellinfo_num">蓄电池模块号</string>
+	<string name="cellinfo_counter">模块内单体电池数</string>
+	<string name="samplecounter">模块内温度采样点数</string>
+	<string name="cellinfo_soc">模块SOC</string>
+	<string name="cellinfo_volage0">模块总电压</string>
+	<string name="cellinfo_volage1">模块总电压1</string>
+	<string name="cellinfo_current0">动力电池的总电流</string>
+	<string name="cellinfo_current1">模块总电流1</string>
+	
+	<!-- batterycellotherinfoindex -->
+	<string name="batterycellotherinfoindex"> </string>
+	<string name="cellotherinfo_num">蓄电池模块号</string>
+	<string name="tmin">模块内最低温度</string>
+	<string name="tmax">模块内最高温度</string>
+	<string name="vmin0">模块内单体最低电压</string>
+	<string name="vmin1">模块内单体最低电压1</string>
+	<string name="vmax0">模块内单体最低电压</string>
+	<string name="vmax1">模块内单体最低电压1</string>
+	 
+	<!-- batteryerrorindex -->
+	<string name="batteryerrorindex"> </string>
+	<string name="chargeconnection">与充电机通信报警</string>
+	<string name="batterconnection">动力电池通信报警</string>
+	<string name="hightemp">极柱温度高报警</string>
+	<string name="heat">加热状态报警</string>
+	<string name="balanced">均衡状态报警</string>
+	<string name="lowbattery">动力电池亏电</string>
+	<string name="leakage">高压漏电报警</string>
+	<string name="chargecurrent">充电电流报警</string>
+	<string name="dischargeconnection">放电电流报警</string>
+	<string name="arraylowtemp">电池组欠温报警</string>
+	<string name="arrayhightemp">电池组高温报警</string>
+	<string name="overvoltage">电池组过压报警</string>
+	<string name="undervoltage">电池组欠压报警</string>
+	<string name="cellovervoltage">单体电池过压报警</string>
+	<string name="cellundervoltage">单体电池欠压报警</string>
+	
+	<!-- motor_infoindex -->
+	<string name="motor_infoindex"> </string>
+	<string name="steer">转向</string>
+	<string name="motor_hightemp">电机运行模式</string>
+	<string name="motor_heat">电机运行状态</string>
+	<string name="motortemperture">电机温度</string>
+	<string name="controllertemp">控制器温度</string>
+	<string name="rotatespeed0">电机转速</string>
+	<string name="rotatespeed1">电机转速</string>
+	<string name="torque0">电机转矩</string>
+	<string name="torque1">电机转矩</string>
+	 
+	<!-- motor_running_infoindex -->
+	<string name="motor_running_infoindex"> </string>
+	<string name="phasecurrent0">电机相电流</string>
+	<string name="phasecurrent1">电机相电流1</string>
+	<string name="phasevoltage0">电机相电压</string>
+	<string name="phasevoltage1">电机相电压1</string>
+	
+	<!-- bodylightindex -->
+	<string name="bodylightindex"> </string>
+	<string name="parking">驻车指示</string>
+	<string name="rearfoglight">后雾灯</string>
+	<string name="headfoglight">前雾灯</string>
+	<string name="highbeam">远光灯</string>
+	<string name="lowbeam">近光灯</string>
+	<string name="rightsteering">右转向</string>
+	<string name="leftsteering">左转向</string>
+	 
+	<!-- vehicl_errorindex -->
+	<string name="vehicl_errorindex"> </string>
+	<string name="insulationsystem">绝缘系统检测报警</string>
+	<string name="chargingconnection">充电连接提示</string>
+	<string name="charging">充电中状态提示</string>
+	<string name="batteryoff">动力电池切断提示</string>
+	<string name="batteryerror">动力电池故障报警</string>
+	<string name="motoroverheating">电机过热报警</string>
+	<string name="motoroverspeed">电机超速报警</string>
+	<string name="systemerror">系统故障报警</string>
+	
+	<!-- accessory_statusindex -->
+	<string name="accessory_statusindex"> </string> 
+	<string name="brakesystemfault">制动系统故障</string>
+	<string name="safetybeltfault">安全带指示灯</string>
+	<string name="airbagrestraint">安全气囊指示灯</string>
+	<string name="aircondition">电动空调状态</string>
+	<string name="dcstatus">DC/DC 状态</string>
+	<string name="electricpump">电动气泵状态</string>
+	<string name="electricsteer">电动转向状态</string>
+	<string name="wiper_status">雨刮状态</string>
+	<string name="enginehood">前舱门</string>
+	<string name="trunk">后舱门</string>
+	<string name="frontrightdoor">右前门状态</string>
+	<string name="frontleftdoor">左前门状态</string>
+	<string name="rearrightdoor">右后门状态</string>
+	<string name="rearleftdoor">左后门状态</string>	
+	<string name="frontrightwindow">右前门车窗状态</string>
+	<string name="frontleftwindow">左前门车窗状态</string>
+	<string name="rearrightwindow">右后门车窗状态</string>
+	<string name="rearleftwindow">左后门车窗状态</string>
+	 
+	<!-- vehiclerunninginfoindex -->
+	<string name="vehiclerunninginfoindex"> </string> 
+	<string name="systeminterlock">系统互锁</string>
+	<string name="vehiclestate">车辆行驶状态</string>
+	
+	<!-- controllerinfoindex -->
+	<string name="controllerinfoindex"> </string> 
+	<string name="acceleratorpedal">油门踏板状态</string>
+	<string name="brakepedal">刹车踏板状态</string>
+	<string name="start">一键启动按钮状态</string>
+	<string name="gears">档位状态</string>
+	<string name="keystatus">钥匙开关状态</string>
+	<string name="controller_trunk">后舱门状态</string>
+	<string name="acceleratorpedaldegree">油门大小开合度</string>
+	
+	<!-- chargeinfoindex -->
+	<string name="chargeinfoindex"> </string>
+	<string name="chargeinterface">充电接口状态</string>
+	<string name="comfault">通信错误</string>
+	<string name="avfault">输入交流电压不正常</string>
+	<string name="overheating">充电机过热错误</string>
+	<string name="chargevolage0">充电电压</string>
+	<string name="chargevolage1">充电电压1</string>
+	<string name="chargecurrent0">充电电流</string>
+	<string name="chargecurrent1">充电电流1</string>
+	
+	<!-- speedmileageinfoindex -->
+	<string name="speedmileageinfoindex"> </string>
+	<string name="totalmileage_most">总计里程十万位</string>
+	<string name="totalmileage_myriabit">总计里程万位</string>
+	<string name="totalmileage_thousands">总计里程千位</string>
+	<string name="totalmileage_hundreds">总计里程百位</string>
+	<string name="totalmileage_tens">总计里程十位</string>
+	<string name="totalmileage_ones">总计里程个位</string>
+	<string name="smallmileage_hundreds">小计里程百位</string>
+	<string name="smallmileage_tens">小计里程十位</string>
+	<string name="smallmileage_ones">小计里程个位</string>
+	<string name="smallmileage_decimals">小计里程小数位</string>
+	<string name="speed0">车速</string>
+	<string name="speed1">车速</string>
+	
+	<!-- airconditon_infoindex -->
+	<string name="airconditon_infoindex"> </string>
+	<string name="airconmode">空调运行模式</string>
+	<string name="aircontemp">空调温度</string>
+	<string name="airspeed">风速</string>
+	
+	 <!-- vehiclinfotodasindex -->
+	<string name="vehiclinfotodasindex"> </string>
+	<string name="brakesignal">刹车信号</string>
+	<string name="leftturn">左转向灯信号</string>
+	<string name="rightturn">右转向灯信号</string>
+	<string name="wipersignal">雨刮信号</string>
+	<string name="highbeamsignal">远光灯信号</string>
+	<string name="speedsignal">速度信号</string>
+	 
+	<!-- warninginfofromdasindex -->
+	<string name="warninginfofromdasindex"> </string>
+	<string name="nightsignal">夜间指示 </string>
+	<string name="nightfallsignal">黄昏指示</string>
+	<string name="soundmode">声音类型</string>
+	<string name="highlowbeam">远/近光灯</string>
+	<string name="zerospeed">零速度</string>
+	<string name="reserved"> </string>
+	<string name="headwaymeasure">时距值</string>
+	<string name="headwayvalid">时距值是否有效</string>
+	<string name="errorcode">错误编码</string>
+	<string name="errorvalid">错误编码是否有效</string>
+	<string name="failsafe">内部失效保护模式指示</string>
+	<string name="error">内部错误指示</string>
+	<string name="fcw">前防撞预警</string>
+	<string name="rightldwopen">车道偏离预警</string>
+	<string name="leftldwopen">车道偏离预警</string>
+	<string name="ldwclose">LDW禁用</string>
+	<string name="passerbydanger">行人处于危险区域</string> 
+	<string name="passerbypcw">行人前防撞预警</string>
+	<string name="headwaywarninglevel">报警方案设定</string>
+	
+	<!-- lightcommandindex -->
+	<string name="lightcommandindex"> </string>
+	<string name="command_highbeam">远光灯</string>
+	<string name="command_lowbeam">近光灯</string>
+	<string name="command_rightturn">右转向</string>
+	<string name="command_leftturn">左转向</string>	
+	<string name="command_parking">驻车指示</string>
+	<string name="command_rearfoglamp">后雾灯</string>
+	<string name="command_frontfoglamp">前雾灯</string>
+		 
+	<!-- motorhorncommandindex -->
+	<string name="motorhorncommandindex"> </string>
+	<string name="value">喇叭控制模式</string>
+	<string name="singtime">鸣叫时长</string>
+	 
+	<!-- airconditioncommandindex -->
+	<string name="airconditioncommandindex"> </string>
+	<string name="status">空调控制模式</string>
+	<string name="mode">空调运行模式</string>
+	<string name="temperture">空调温度</string>
+	<string name="command_airspeed">风速</string>
+	 
+	<!-- doorlockcommandindex -->
+	<string name="doorlockcommandindex"> </string>
+	<string name="controlmode">门锁控制模式</string>
+	<string name="doortype">门控类型</string>
+	
+	<!-- wipercommandindex -->
+	<string name="wipercommandindex"> </string>
+	<string name="command_controlmode">雨刮控制模式</string>
+	<string name="command_wiperspeed">雨刮速度</string>
+	
+</resources>

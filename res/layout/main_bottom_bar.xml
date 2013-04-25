@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+    
+    <TextView 
+        android:id="@+id/action_b0"
+        android:layout_width="0dip"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:gravity="center"
+    	android:textColor="@color/clr_text_white"
+    	android:background="@drawable/main_bottom_btn"/>
+    
+    <TextView 
+        android:id="@+id/action_b1"
+        android:layout_width="0dip"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:gravity="center"
+    	android:textColor="@color/clr_text_white"
+    	android:background="@drawable/main_bottom_btn"/>
+    	
+     <TextView 
+        android:id="@+id/action_b2"
+        android:layout_width="0dip"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:gravity="center"
+    	android:textColor="@color/clr_text_white"
+    	android:background="@drawable/main_bottom_btn"/>
+     
+     <TextView 
+        android:id="@+id/action_b3"
+        android:layout_width="0dip"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:gravity="center"
+    	android:textColor="@color/clr_text_white"
+    	android:background="@drawable/main_bottom_btn"/>
+     
+     <TextView 
+        android:id="@+id/action_b4"
+        android:layout_width="0dip"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:gravity="center"
+    	android:textColor="@color/clr_text_white"
+    	android:background="@drawable/main_bottom_btn"/>
+     
+     <TextView 
+        android:id="@+id/action_b5"
+        android:layout_width="0dip"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:gravity="center"
+    	android:textColor="@color/clr_text_white"
+    	android:background="@drawable/main_bottom_btn"/>
+     
+     <TextView 
+        android:id="@+id/action_b6"
+        android:layout_width="0dip"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:gravity="center"
+    	android:textColor="@color/clr_text_white"
+    	android:background="@drawable/main_bottom_btn"/>
+     
+     <TextView 
+        android:id="@+id/action_b7"
+        android:layout_width="0dip"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:gravity="center"
+    	android:textColor="@color/clr_text_white"
+    	android:background="@drawable/main_bottom_btn"/>
+          
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<color name="clr_background">#FFE8E8E8</color>
+    <color name="clr_left_area">#FF8DB6CD</color>
+    <color name="clr_right_area">#FF8DB6CD</color>
+    <color name="clr_bottom_area">#FF668B8B</color>
+    <color name="clr_content">#FFCAE1FF</color>
+    <color name="clr_blue">#FF85D0FF</color>
+    <color name="clr_content_left">#FF66CD00</color>
+	<color name="clr_content_right">#FF66CD00</color>
+	
+	<color name="clr_text_white">#FFFFFFFF</color>
+</resources>
